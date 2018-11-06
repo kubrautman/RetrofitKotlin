@@ -1,4 +1,6 @@
 package com.android.kubrautman.retrofitexample.network.response
 
-class HeroesResponse {
+import com.android.kubrautman.retrofitexample.dto.Hero
+
+data class HeroesResponse(val data:List<Hero>) {
 }
